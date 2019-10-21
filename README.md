@@ -1,4 +1,3 @@
-This is just for running on local machine with out tomcat and jenkins
 # java-tomcat-maven-example for online learning website
 
 This is an example ready-to-deploy java web application built for Tomcat using Maven and webapp-runner.
