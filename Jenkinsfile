@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('pull') {
 			steps {
-				sh "git checkout https://github.com/iamsatya/maven-tomcat-eclipse-online-learning"
+				sh "git pull https://github.com/iamsatya/maven-tomcat-eclipse-online-learning"
 			}
 		}
 		
