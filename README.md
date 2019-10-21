@@ -1,4 +1,4 @@
-# java-tomcat-maven-example for online learning website
+# java-tomcat-maven for online learning website which has 3 layers
 
 This is an example ready-to-deploy java web application built for Tomcat using Maven and webapp-runner.
 
