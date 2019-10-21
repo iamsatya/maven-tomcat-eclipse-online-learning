@@ -6,6 +6,13 @@ pipeline {
 				sh "git clone https://github.com/iamsatya/maven-tomcat-eclipse-online-learning.git"
 			}
 		}
+		
+		stage(clean) {
+			steps {
+				sh "/opt/maven/bin/mvn clean"
+			}
+		}
+		
 		stage(build) {
 			steps {
 				sh "/opt/maven/bin/mvn package"
