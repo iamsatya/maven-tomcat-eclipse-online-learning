@@ -20,7 +20,7 @@ pipeline {
 		}
 		stage(deploy) {
 			steps {
-				sh "curl --insecure --user tomcat:password -T ./target/*.war sftp://172.31.7.169/opt/tomcat/webapps/"
+				sh "curl --insecure --user tomcat:password -T ./target/*.war sftp://172.31.42.200/opt/tomcat/webapps/"
 				}
 			}
 		}
