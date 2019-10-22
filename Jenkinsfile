@@ -9,13 +9,13 @@ pipeline {
 		
 		stage(clean) {
 			steps {
-				sh "/opt/maven/bin/mvn clean"
+				sh "mvn clean"
 			}
 		}
 		
 		stage(build) {
 			steps {
-				sh "/opt/maven/bin/mvn package"
+				sh "mvn package"
 			}
 		}
 		stage(deploy) {
